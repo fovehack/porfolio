@@ -34,7 +34,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Welcome! I'm Daniel, a{" "}
+              Welcome! I&#39;m Daniel, a{" "}
               <span className="font-bold text-teal-500">{"very ambitious"}</span> and
               <span className="font-bold text-teal-500">{" driven"}</span> Fullstack Web Developer with
               <span className="font-bold text-teal-500">{" 2 years"}</span> of experience based in Málaga, Spain.
@@ -49,7 +49,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            I am eager to continue evolving my career and excited to explore new avenues of growth and opportunities. Don't hesitate to contact me, I am always open to new connections and collaborations.
+            I am eager to continue evolving my career and excited to explore new avenues of growth and opportunities. Don&#39;t hesitate to contact me, I am always open to new connections and collaborations.
             </p>
             <br />
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
