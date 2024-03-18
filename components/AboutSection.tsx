@@ -2,21 +2,21 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "Sass" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Express.js" },
   { skill: "React" },
+  { skill: "Angular" },
+  { skill: "Refine" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "Node.js" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Node.js" },
+  { skill: "Docker" },
   { skill: "SQL" },
   { skill: "NoSQL" },
   { skill: "PHP" },
+  { skill: "AWS" },
 ]
 
 const AboutSection = () => {
@@ -34,35 +34,22 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Daniel and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> web developer
-              from Málaga, spain.
+              Welcome! I'm Daniel, a{" "}
+              <span className="font-bold text-teal-500">{"very ambitious"}</span> and
+              <span className="font-bold text-teal-500">{" driven"}</span> Fullstack Web Developer with
+              <span className="font-bold text-teal-500">{" 2 years"}</span> of experience based in Málaga, Spain.
             </p>
             <br />
             <p>
-            I am studying my last year of higher degree in computer
-            science. I love everything related to Frontend and 
-            Backend, and in the future I would like to work on Fullstack.
+            Beyond my professional endeavors, I am motivated by a wide range of interests and passions. Whether immersing myself in literature, staying active through sports, exploring new destinations, or participating in programming projects, I constantly seek opportunities for growth and enrichment.
             </p>
             <br />
             <p>
-            I have a wide range of hobbies and passions that keep me 
-            busy. From reading, playing sports, traveling to doing new 
-            programming projects, I am always looking for new 
-            experiences and love to stay involved and learn new things.
+            Driven by an unwavering commitment to personal and professional development, I firmly believe in the relentless pursuit of knowledge and innovation. With an unwavering passion for technology, I am dedicated to pushing the boundaries of what can be achieved in the digital realm.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and
-              always open to new opportunities. 🙂
+            I am eager to continue evolving my career and excited to explore new avenues of growth and opportunities. Don't hesitate to contact me, I am always open to new connections and collaborations.
             </p>
             <br />
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">

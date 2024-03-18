@@ -6,12 +6,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: " SaaS AI Companion",
+    name: " CRM Dashboard",
     description:
-      "Create your own AI and talk to him. Technologies: Next.js 13, Pinecone, Uptash Redis, MySQL, Prisma, Stripe, Clerk, React, Tailwind, Typescript, Node.js",
-    image: "/2.jpg",
-    github: "https://github.com/fovehack/ai-companion",
-    link: "https://ai-companion-ashy.vercel.app/",
+      "Agile Task Management with Kanban Board in Real Time & Administration Panel with Real-Time Visualizations and CRUD of Companies.",
+    image: "/crm_dashboard.jpg",
+    github: "https://github.com/fovehack/CRM_Dashboard",
+    link: "https://crm-dashboard-eta.vercel.app/",
   },
   {
     name: " Discord Clone",
@@ -19,8 +19,16 @@ const projects = [
       "Create your own server and invite your friends. Chat, voice and video calls in real-time😱. Next.js 13, React, Typescript, Prisma, Clerk, PostgreSQL, Node.js",
     image: "/purple.jpg",
     github: "https://github.com/fovehack/discord-clone",
-    link: "https://discord-clone-production-3ce2.up.railway.app/",
+    link: "",
   },
+  {
+    name: " SaaS AI Companion",
+    description:
+      "Create your own AI and talk to him. Technologies: Next.js 13, Pinecone, Uptash Redis, MySQL, Prisma, Stripe, Clerk, React, Tailwind, Typescript, Node.js",
+    image: "/2.jpg",
+    github: "https://github.com/fovehack/ai-companion",
+    link: "",
+  }
 ]
 
 const ProjectsSection = () => {
