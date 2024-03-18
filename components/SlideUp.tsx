@@ -3,7 +3,6 @@ import React, { useEffect, useRef, ReactNode } from "react"
 interface Props {
   offset?: string
   children?: ReactNode
-  // any props that come into the component
 }
 
 export default function SlideUp({ children, offset = "0px" }: Props) {
@@ -26,8 +25,25 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
       observer.observe(ref.current)
     }
 
-    // Incluye offset en el array de dependencias
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current)
+      }
+    }
   }, [ref, offset])
+
+  // Marcar este componente como un componente del cliente
+  useEffect(() => {
+    // Esto marca este componente como un componente del cliente
+    const clientComponent = document.createElement("div")
+    clientComponent.setAttribute("use", "client")
+    document.body.appendChild(clientComponent)
+
+    // Limpia el componente del cliente cuando este componente se desmonta
+    return () => {
+      document.body.removeChild(clientComponent)
+    }
+  }, [])
 
   return (
     <div ref={ref} className="relative opacity-0">
